@@ -1,16 +1,49 @@
-### Hi there 👋
+<h2>Que onda!! 👋</h2>
+<p><em>Web Developer</br>
+"Si fallas al planificar, estas planificando fallar"
+</em></p>
 
-<!--
-**henrrypirir/henrrypirir** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<p>Soy un desarrollador web autodidacta, vivo aprendiendo de todos un poco. Soy el creador de <a href="https://henrrypirir.github.io/flexbox-gallery/">Flex-box Gallery</a> un plugin para la comunidad con la que puedes crear una galeria de imagenes de forma rapida y gratis 🤯</p>
 
-Here are some ideas to get you started:
+```php
+<?php
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+namespace HenrryPirir;
+
+class About extends Me{
+
+    public function get_workplace(){
+        return [
+                'company' => 'Informatica Guatemala',
+                'position' => 'Lead System Developer'         
+            ];
+    }
+    
+    public function get_backend(){
+        return [
+            'code' => [
+                Php::class,
+                Laravel::class,
+                Codeigniter:class
+            ],
+            'database' => ['MySql', 'Maria DB'],
+            'CMS' => ['Wordpress', 'Drupal']
+        ];
+    }
+    
+    public function get_frontend(){
+        return [
+            'code' => ['Javascript', 'jQuery', 'HTML', 'CSS'],
+            'preprocessor' => ['SASS', 'LESS']
+        ];
+    }
+}
+```
+
+## 📫 Contact Me
+- Twitter - [@henrrypirir](https://twitter.com/henrrypirir)
+- LinkedIn - [Henrry Pirir](https://www.linkedin.com/in/henrrypirir/)
+
+---
+
+⭐️ From [@henrrypirir](https://github.com/henrrypirir) 🧙‍♂️💻 
