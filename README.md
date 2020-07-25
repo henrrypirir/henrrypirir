@@ -1,9 +1,10 @@
-<h2>Que onda!! 👋</h2>
-<p><em>Web Developer</br>
+<h2>HenrryPirir->says('Que onda!! 👋');</h2>
+
+<p><em>Desarrollador Web</br>
 "Si fallas al planificar, estas planificando fallar"
 </em></p>
 
-<p>Soy un desarrollador web autodidacta, vivo aprendiendo de todos un poco. Soy el creador de <a href="https://henrrypirir.github.io/flexbox-gallery/">Flex-box Gallery</a> un plugin para la comunidad con la que puedes crear una galeria de imagenes de forma rapida y gratis 🤯</p>
+<p>Soy un desarrollador web autodidacta, vivo aprendiendo de todos un poco. Soy el creador de <a href="https://henrrypirir.github.io/flexbox-gallery/">Flex-box Gallery</a>, un plugin para la comunidad con el que puedes crear una galería de imágenes de forma rápida y gratis 🤯</p>
 
 ```php
 <?php
@@ -40,10 +41,10 @@ class About extends Me{
 }
 ```
 
-## 📫 Contact Me
+## 📫 Contáctame
 - Twitter - [@henrrypirir](https://twitter.com/henrrypirir)
 - LinkedIn - [Henrry Pirir](https://www.linkedin.com/in/henrrypirir/)
 
 ---
 
-⭐️ From [@henrrypirir](https://github.com/henrrypirir) 🧙‍♂️💻 
+⭐️ [@henrrypirir](https://github.com/henrrypirir) 🧙‍♂️💻 
