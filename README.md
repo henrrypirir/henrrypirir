@@ -1,10 +1,7 @@
 <h2>HenrryPirir->says('Que onda!! 👋');</h2>
+<h3>Web Developer</h3>
 
-<p><em>Desarrollador Web</br>
-"Si fallas al planificar, estas planificando fallar"
-</em></p>
-
-<p>Soy un desarrollador web autodidacta, vivo aprendiendo de todos un poco. Soy el creador de <a href="https://henrrypirir.github.io/flexbox-gallery/">Flex-box Gallery</a>, un plugin para la comunidad con el que puedes crear una galería de imágenes de forma rápida y gratis 🤯</p>
+<p>I'm the <a href="https://henrrypirir.github.io/flexbox-gallery/">Flex-box Gallery</a> creator, it's a plugin for the community to create galleries in a free and easy way 🤯</p>
 
 ```php
 <?php
@@ -15,8 +12,8 @@ class About extends Me{
 
     public function get_workplace(){
         return [
-                'company' => 'Informatica Guatemala',
-                'position' => 'Lead System Developer'         
+                'company' => 'Nexa {Devs}',
+                'position' => 'Back-end Developer'         
             ];
     }
     
@@ -28,13 +25,21 @@ class About extends Me{
                 Codeigniter:class
             ],
             'database' => ['MySql', 'Maria DB'],
-            'CMS' => ['Wordpress', 'Drupal']
+            'CMS' => ['WordPress', 'Drupal']
         ];
     }
     
     public function get_frontend(){
         return [
-            'code' => ['Javascript', 'jQuery', 'HTML', 'CSS'],
+            'code' => [
+                'Javascript',
+                'jQuery',
+                'Alpine',
+                'HTML',
+                'CSS',
+                'Bootstrap',
+                'Tailwind CSS'
+            ],
             'preprocessor' => ['SASS', 'LESS']
         ];
     }
